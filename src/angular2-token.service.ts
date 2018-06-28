@@ -117,6 +117,7 @@ export class Angular2TokenService implements CanActivate {
             resetPasswordPath:          'auth/password',
             resetPasswordCallback:      window.location.href,
 
+            loginField:                 'email',
             userTypes:                  null,
 
             oAuthBase:                  window.location.origin,
@@ -183,7 +184,7 @@ export class Angular2TokenService implements CanActivate {
             this.atCurrentUserType = this.getUserTypeByName(signInData.userType);
 
         let body = JSON.stringify({
-            email:      signInData.email,
+            [this.atOptions.loginField]:  signInData.login,
             password:   signInData.password
         });
 
