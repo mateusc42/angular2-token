@@ -1,7 +1,7 @@
 {
     "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
-    "name": "angular2-token",
-    "version": "0.2.0-login",
+    "name": "angular2-token-devtt-customfield",
+    "version": "0.2.1-customfield",
     "repository": "https://github.com/mateusc42/angular2-token",
     "ngPackage": {
       "lib": {

@@ -1,18 +1,6 @@
-![Angular2-Token](assets/angular2-token-logo.png)
+# Angular2-Token Custom Field DEV TT
 
-# Angular2-Token
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/neroniaky/angular2-token.svg)](https://greenkeeper.io/)
-[![Join the chat at https://gitter.im/lynndylanhurley/devise_token_auth](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/angular2-token/Lobby)
-[![npm version](https://badge.fury.io/js/angular2-token.svg)](https://badge.fury.io/js/angular2-token)
-[![npm downloads](https://img.shields.io/npm/dt/angular2-token.svg)](https://npmjs.org/angular2-token)
-[![Build Status](https://travis-ci.org/neroniaky/angular2-token.svg?branch=master)](https://travis-ci.org/neroniaky/angular2-token)
-
-
-Token based authentication service for Angular with multiple user support. Angular2-Token works best with the [devise token auth](https://github.com/lynndylanhurley/devise_token_auth) gem for Rails.
-Angular2-Token is currently in Beta. Any contribution is much appreciated.
-
-A sample application can be found [here](https://github.com/neroniaky/angular2-token-example).
+Token based authentication service for Angular2-token customized to login using username. Angular2-Token-devtt-customfield works best with the [devise token auth](https://github.com/lynndylanhurley/devise_token_auth) gem for Rails. Angular2-Token is currently in Beta. Any contribution is much appreciated.
 
 ## Installation
 
@@ -21,7 +9,7 @@ A sample application can be found [here](https://github.com/neroniaky/angular2-t
 
 1. Install Angular2-Token via NPM with
     ```bash
-    npm install angular2-token
+    npm install angular2-token-devtt-customfield
     ```
 
 2. Import and add `Angular2TokenService` to your main module. `Angular2TokenService` depends on `HttpModule` and `RouterModule`, so make sure you import them too.
@@ -48,11 +36,6 @@ A sample application can be found [here](https://github.com/neroniaky/angular2-t
     ```
 
 ## Quickstart (αlpha)
-Quickstart includes the necessary forms and routing to quickly use Angular2-Token with your Project. A live demo can be found [here](https://angular2-token.herokuapp.com/#/session/sign-in).
-
-Quickstart is currently in αlpha, please use with caution.
-
-![Quickstart](assets/quickstart.gif)
 
 1. Add `A2tUiModule` to your main module.
     ```javascript
@@ -495,4 +478,4 @@ npm test
 Test config files based on [Angular2 Webpack Starter](https://github.com/AngularClass/angular2-webpack-starter) by AngularClass
 
 ### License
-The MIT License (see the [LICENSE](https://github.com/neroniaky/angular2-token/blob/master/LICENSE) file for the full text)
+The MIT License (see the [LICENSE](https://github.com/mateusc42/angular2-token/blob/master/LICENSE) file for the full text)
